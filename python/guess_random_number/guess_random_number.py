@@ -11,20 +11,21 @@ print(53 * '-')
 print("| In this game, you have to guess the right number! |")
 print(53 * '-')
 while True:
-	try:
-		guessed +=1
-		guess = int(input("Give your guess: "))
-		
-		if guess == random_number:
-			print(f"Congratulations! You guessed the number {random_number} :D")
-			print(f"You have {guessed} times failed") 
-		elif guess > random_number:
-			print("The randomnumber is smaller!")
-		else:
-			print("The randomnumber is greater!")
-	except ValueError:
-		print("Wrong datatype, please give a number from 1 to 100")
-		print("Make sure that is without:")
-		print("- komma")
-		print("- space")
-		print("- Book scarves")
+    try:
+        guessed += 1
+        guess = int(input("Enter your guess: "))
+        
+        if guess == random_number:
+            print(f"Congratulations! You guessed the number {random_number} :D")
+            print(f"You took {guessed} attempts.")
+            break  # Exit the loop once the number is guessed correctly
+        elif guess > random_number:
+            print("The random number is smaller!")
+        else:
+            print("The random number is greater!")
+    except ValueError:
+        print("Invalid input. Please enter a number from 1 to 100.")
+        print("Make sure the input does not contain:")
+        print("- commas")
+        print("- spaces")
+        print("- letters")
