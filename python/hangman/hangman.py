@@ -11,8 +11,8 @@ print("| In this games, you have to guess the right word, befor going to die!|")
 print(71 * '-')
 
 
-random_word= random.choice(words)
-
+random_word = random.choice(words)
+print(random_word)
 
 guess = input("Your guss: ")
 
