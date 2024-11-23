@@ -9,10 +9,21 @@ print('|'+25*'-'+"You have 6 guesses"+26*'-'+'|')
 print(71 * '-')
 
 random_word = random.choice(words)
+
 print(random_word)
 attampts = 0
 
-while attampts >= 6:
+def get_valid_word(word_v)
+    if guess in random_word
+    
+
+while attampts <= 6:
+    attampts = +1
+
+    guess = input('Your guess: ')
+    if guess in random_word:
+        print
+
     print('The game is over')
     print(f'The search word was: {random_word}')
         
