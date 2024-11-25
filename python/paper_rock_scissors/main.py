@@ -31,8 +31,8 @@ def user_animation(user_turn_tmp):
         return rock_u
     elif user_turn_tmp == 'p':
         return paper_u
-    elif user_turn_tmp == 'p':
-        return paper_u
+    elif user_turn_tmp == 's':
+        return scissors_u
 
 while attempt <= 2:
     computer_turn = random.choice (['r', 'p', 's'])
@@ -61,6 +61,6 @@ while attempt <= 2:
         print(computer_animation(computer_turn))
         user_won +=1
         print('You Won')
-        print()
+
 if user_won == 3:
     print('You won the entire Game! Thank you, for playing :D')
