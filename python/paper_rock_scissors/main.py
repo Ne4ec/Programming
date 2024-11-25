@@ -5,7 +5,7 @@ import random
 from user_hand import rock_u, paper_u, scissors_u
 # yxy nur die user_hand importieren
 from opponent_hand import rock_o, paper_o, scissors_o
-import characters
+import animation
 
 attempt = 0
 user_won = 0
@@ -27,19 +27,25 @@ while attempt <= 2:
         print(paper_o, rock_u)
         print('You lost!')
         print('Computer have paper!')
+        print(computer_animation(computer_turn))
+        print(user_animation(user_turn))
     elif (scissors_o == 's') and (paper_u == 'p'): 
         print('You lost!')
         print('Computer have scissors!')
-    elif computer_turn == usr_turn:
+        print(computer_animation(computer_turn))
+        print(user_animation(user_turn))
+    elif computer_turn == user_turn:
         attempt -=1
         print('its tie!')
         print('Try another play.')
+        print(computer_animation(computer_turn))
+        print(user_animation(user_turn))
     else:
         user_won +=1
         print('You Won')
         print()
+        print(computer_animation(computer_turn))
+        print(user_animation(user_turn))
 
 if user_won == 3:
     print('You won the entire Game! Thank you, for playing :D')
-
-
