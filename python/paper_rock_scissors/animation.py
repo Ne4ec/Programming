@@ -3,12 +3,13 @@ from opponent_hand import rock_o, paper_o, scissors_o
 from main import computer_turn, user_turn
 
 # computer input
+
 def computer_animation(computer_turn_tmp):
     if computer_turn_tmp == 'r':
         return rock_o
     elif computer_turn_tmp == 'p':
         return paper_o
-    elif computer_turn == 's':
+    elif computer_turn_tmp == 's':
         return scissors_o
 
 # user input 
