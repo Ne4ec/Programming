@@ -5,13 +5,16 @@ from user_hand import rock_u, paper_u, scissors_u
 
 print(rock_u)
 
-computer_turn == 'r'
-def sec (bob):
-if computer_turn == 'r':
-    return rock_u
-elif computer_turn == 'p':
-    paper_p
-else:
-    prin(scissors_u)
+computer_turn = 'p'
 
 
+def sec (computer_turn):
+    if computer_turn == 'r':
+        return rock_o
+    elif computer_turn == 'p':
+        return paper_o
+    elif computer_turn == 's':
+        return scissors_u
+
+print(sec('p'))
+print(sec('s'))
