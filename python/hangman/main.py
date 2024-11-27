@@ -16,8 +16,7 @@ attampts = 6
 
 
 while attampts <= 6:
-    try:
-        imput 
+    imput('What is ')
     attampts = +1
 
 
