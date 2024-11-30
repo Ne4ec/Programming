@@ -1,13 +1,12 @@
 #!/bin/python3
 
 import random
-# r < p, p > s, s > r
 from user_hand import rock_u, paper_u, scissors_u
 from opponent_hand import rock_o, paper_o, scissors_o
 
-attempt = 0
-user_won = 0
+# r < p, p > s, s > r
 
+# Einführungstext
 print(40 * '-')
 print("| In this game you have to win 3 times |")
 print("Just remember: \n"
@@ -16,7 +15,10 @@ print("Just remember: \n"
       "'s' for scissors")
 print(40 * '-')
 
-# computer input
+attempt = 0
+user_won = 0
+
+# Funktion für die Computer-Animation
 def computer_animation(computer_turn_tmp):
     if computer_turn_tmp == 'r':
         return rock_o
@@ -25,7 +27,7 @@ def computer_animation(computer_turn_tmp):
     elif computer_turn_tmp == 's':
         return scissors_o
 
-# user input 
+# Funktion für die Benutzer-Animation
 def user_animation(user_turn_tmp):
     if user_turn_tmp == 'r':
         return rock_u
@@ -34,33 +36,38 @@ def user_animation(user_turn_tmp):
     elif user_turn_tmp == 's':
         return scissors_u
 
-while attempt <= 2:
-    computer_turn = random.choice (['r', 'p', 's'])
+while user_won < 3:  # Spiel läuft, bis der Benutzer 3-mal gewinnt
+    computer_turn = random.choice(['r', 'p', 's'])
+    
+    # Benutzereingabe
     user_turn = input('Your choice: ')
-    attempt +=1
+    if user_turn not in ['r', 'p', 's']:  # Bedingung korrigiert
+        print("Invalid input! Please enter 'r', 'p' or 's'!")
+        print("Just remember: \n"
+              "'r' for rock \n"
+              "'p' for paper \n"
+              "'s' for scissors")
+        continue  # Zur nächsten Iteration, falls Eingabe ungültig ist
+
+    # Überprüfung der Spielregeln
     if (computer_turn == 'p') and (user_turn == 'r'):
         print(user_animation(user_turn))
         print(computer_animation(computer_turn))
-        attempt -=1
-        print('You lost!')
-        print('Computer have paper!')
-    elif (scissors_o == 's') and (paper_u == 'p'): 
+        print('You lost! Computer has paper!')
+    elif (computer_turn == 's') and (user_turn == 'p'): 
         print(user_animation(user_turn))
         print(computer_animation(computer_turn))
-        appempt -=1
-        print('You lost!')
-        print('Computer have scissors!')
+        print('You lost! Computer has scissors!')
     elif computer_turn == user_turn:
         print(user_animation(user_turn))
         print(computer_animation(computer_turn))
-        attempt -=1
-        print('its tie!')
-        print('Try another play.')
+        print('It\'s a tie! Try another play.')
     else:
         print(user_animation(user_turn))
         print(computer_animation(computer_turn))
-        user_won +=1
-        print('You Won')
+        user_won += 1  # Zähler für Benutzer-Siege
+        print('You Won!')
+        if user_won == 3:
+            print('You won the entire Game! Thank you for playing :D')
 
-if user_won == 3:
-    print('You won the entire Game! Thank you, for playing :D')
+
