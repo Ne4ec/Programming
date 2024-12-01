@@ -1,12 +1,18 @@
 #/bin/pyhton
 
-print(53 * '-')
-print('-' * 19 + "| Calculator  |" +  '-' * 19)
-print(53 * '-')
+print(50 * '-')
+print('-' * 18 + "| Calculator  |" +  '-' * 17)
+print(50 * '-')
+print('\n')
 
-first_number = int(input('You first number: '))
-operator = input('Which operator: ')1
-secend_number = int(input('You secend number: '))
+
+while True:
+    try:
+        first_number = int(input('You first number: '))
+        operator = input('Which operator: ')
+        secend_number = int(input('You secend number: '))
+    except ValueError:
+        print("Wrong input, enter just a number! Try again.")
 
 def result(x, o, y):
     if o == '+':
@@ -18,4 +24,6 @@ def result(x, o, y):
     elif o == '/':
         return x / y
 
-print(result(firt_number, operator, secend_number)
+result_tmp = (result(first_number, operator, secend_number))
+
+print()
