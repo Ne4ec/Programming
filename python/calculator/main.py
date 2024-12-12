@@ -5,13 +5,15 @@ print('-' * 18 + "| Calculator  |" +  '-' * 17)
 print(50 * '-')
 print('\n')
 
-
-try:
-    first_number = int(input('You first number: '))
-    operator = input('Which operator: ')
-    secend_number = int(input('You secend number: '))
-except ValueError:
-    print("Wrong input, enter just a number! Try again.")
+def get_input():
+    while True:
+        try:
+            first_number = int(input('Your first number: '))
+            operator = input('Which operator (+, -, *, /): ')
+            second_number = int(input('Your second number: '))
+            return first_number, operator, second_number
+        except ValueError:
+            print("Wrong input, enter numbers only! Try again.")
 
 def result(x, o, y):
     if o == '+':
@@ -22,7 +24,10 @@ def result(x, o, y):
         return x * y
     elif o == '/':
         return x / y
+    else:
+        return "Error: Unknown operator!"
 
-result_tmp = (result(first_number, operator, secend_number))
-
-print(result_tmp)
+first_number, operator, second_number = get_input()
+print('_' * 40)
+print('Rusult is:')
+print(result(first_number, operator, second_number))
