@@ -23,6 +23,8 @@ ____
 ## Introducing Projects
 ### Python
 (Not all projects are finshed)
+#### Calculator
+![calculator](https://github.com/user-attachments/assets/3198c9f1-a898-4a05-8d85-c06804195a04)
 #### Guss The number
 ![guessthenumber](https://github.com/user-attachments/assets/bd150b5d-64c0-457b-b547-c625f14f73d4)
 #### Rock, Papar or Scossors
