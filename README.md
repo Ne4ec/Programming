@@ -3,7 +3,7 @@ Here are my projects, which help me learn how to code with Python and C.
 **Warning**: This project is designed for learning purposes only. It is not intended for professional use and is suitable for school or study projects.  
 _____
 ## Installation 
-Before we begin, we need to install Python. In my case, I also use `nvim`:  
+Before we begin, we need to install Python and a text editor. In my case, I also use `nvim`:  
 ```
 sudo apt install python neovim git 
 ```
