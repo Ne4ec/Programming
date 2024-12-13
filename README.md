@@ -7,7 +7,7 @@ Before we begin, we need to install Python and a text editor. In my case, I also
 ```
 sudo apt install python neovim git 
 ```
-It depends on you which writing tool you want to use.
+It depends on you which writing tool you want to use. <br>
 **Notice:** If you're using a different Linux distribution, make sure to use the correct `package manager`. The steps should be similar across distributions.
 ____
 ## Clone Repository / Install Projects
@@ -29,9 +29,14 @@ ____
 ![guessthenumber](https://github.com/user-attachments/assets/bd150b5d-64c0-457b-b547-c625f14f73d4)
 #### Rock, Papar or Scossors
 ![psr](https://github.com/user-attachments/assets/33092129-2b85-42fa-94f8-b10183346e4b)
+#### tracking wather with an api and calculator
 #### 
 #### 
-#### 
+____
 ### C
 (lean the basics now)
-tracking wather with an api and calculator
+____
+#### Conculution
+Hopefully, everything is working. If not, please leave a comment in the Issues tab. Thank you for paying attention, and have a nice day :) <br>
+~ Ne4ec
+
