@@ -24,13 +24,13 @@ ____
 ### Python
 (Not all projects are finshed)
 #### Calculator
-![calculator](https://github.com/Ne4ec/Programming-losh/blob/main/python/template/calculator.png)
+![calculator](https://github.com/Ne4ec/Programming/blob/main/.pictures/calculator.png)
 ____
 #### Guss The number
-![guessthenumber](https://github.com/Ne4ec/Programming-losh/blob/main/python/template/guessthenumber.png)
+![guessthenumber](https://github.com/Ne4ec/Programming/blob/main/.pictures/guess_random_number_as_computer.png)
 ____
 #### Rock, Papar or Scossors
-![psr](https://github.com/Ne4ec/Programming-losh/blob/main/python/template/rps.png)
+![psr](https://github.com/Ne4ec/Programming/blob/main/.pictures/paper_rock_scissors.png)
 ____
 #### tracking wather with an api and calculator
 #### 
