@@ -1,9 +1,8 @@
 #!/bin/python3
 
 import random
-from user_hand import rock_u, paper_u, scissors_u
-from opponent_hand import rock_o, paper_o, scissors_o
-
+from opponent_hand import *
+from user_hand import *
 # r < p, p > s, s > r
 
 print(40 * '-')
