@@ -34,7 +34,6 @@ ____
 ____
 #### tracking wather with an api and calculator
 #### 
-#### 
 ____
 ### C
 (lean the basics now)
