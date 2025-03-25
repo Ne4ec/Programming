@@ -1,7 +1,7 @@
 #!/bin/python
 
 print(50 * '-')
-print('-' * 18 + "| Calculator  |" +  '-' * 17)
+print("| A simple Calculator")
 print(50 * '-')
 print('\n')
 

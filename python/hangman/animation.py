@@ -1,6 +1,6 @@
-# Crated by chatgpt.com
-animation_visual = {
- 6: r"""
+# Cated by chatgpt.com
+
+lives_6 = """
   +---+
   |   |
       |
@@ -8,17 +8,8 @@ animation_visual = {
       |
       |
 =========
-""",
- 5: r"""
-  +---+
-  |   |
-  O   |
-      |
-      |
-      |
-=========
-""",
- 4: r"""
+"""
+lives_5 = """
   +---+
   |   |
   O   |
@@ -26,8 +17,17 @@ animation_visual = {
       |
       |
 =========
-""",
- 3: r"""
+"""
+lives_4 = """
+  +---+
+  |   |
+  O   |
+      |
+      |
+      |
+=========
+"""
+lives_3 = """
   +---+
   |   |
   O   |
@@ -35,8 +35,8 @@ animation_visual = {
       |
       |
 =========
-""",
- 2: r"""
+"""
+lives_2 = """
   +---+
   |   |
   O   |
@@ -44,8 +44,8 @@ animation_visual = {
       |
       |
 =========
-""",
- 1: r"""
+"""
+lives_1 = """
   +---+
   |   |
   O   |
@@ -53,8 +53,8 @@ animation_visual = {
  /    |
       |
 =========
-""",
- 0: r"""
+"""
+lives_0 = """
   +---+
   |   |
   O   |
@@ -62,8 +62,4 @@ animation_visual = {
  / \  |
       |
 =========
-""",
-}
-
-print(animation_visual[2])
-
+"""
