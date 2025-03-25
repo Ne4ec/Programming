@@ -32,8 +32,8 @@ ____
 #### Rock, Papar or Scossors
 ![psr](https://github.com/Ne4ec/Programming/blob/main/.pictures/paper_rock_scissors.png)
 ____
-#### tracking wather with an api and calculator
-#### 
+#### Hangman
+![psr](https://github.com/Ne4ec/Programming/blob/main/.pictures/hangman.png)
 ____
 ### C
 (lean the basics now)
