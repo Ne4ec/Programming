@@ -1,4 +1,4 @@
-# Programming
+ Programming
 Here are my projects, which help me learn how to code with Python and C.  
 **Warning**: This project is designed for learning purposes only. It is not intended for professional use and is suitable for school or study projects.  
 _____
@@ -23,19 +23,21 @@ ____
 ## Introducing Projects
 ### Python
 #### Calculator
-![calculator](https://github.com/Ne4ec/Programming/blob/main/.pictures/calculator.png)
+![calculator](https://github.com/Ne4ec/Programming/blob/main/.pictures/python_poc/calculator.png)
 ____
 #### Guss The number
-![guessthenumber](https://github.com/Ne4ec/Programming/blob/main/.pictures/guess_random_number_as_computer.png)
+![guessthenumber](https://github.com/Ne4ec/Programming/blob/main/.pictures/python_poc/guess_random_number.png)
 ____
 #### Rock, Papar or Scossors
-![psr](https://github.com/Ne4ec/Programming/blob/main/.pictures/paper_rock_scissors.png)
+![paperrockscissors](https://github.com/Ne4ec/Programming/blob/main/.pictures/python_poc/paper_rock_scissors.png)
 ____
 #### Hangman
-![psr](https://github.com/Ne4ec/Programming/blob/main/.pictures/hangman.png)
+![hangman](https://github.com/Ne4ec/Programming/blob/main/.pictures/python_poc/hangman.png)
 ____
 ### C
-(lean the basics now)
+#### Calculator
+![calculator](https://github.com/Ne4ec/Programming/blob/main/.pictures/c_poc/calculator.png)
+
 ____
 #### Conculution
 Hopefully, everything is working. If not, please leave a comment in the Issues tab. Thank you for paying attention, and have a nice day :) <br>
