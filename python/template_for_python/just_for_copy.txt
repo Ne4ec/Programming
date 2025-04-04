@@ -1,0 +1,8 @@
+#!/bin/python3
+
+print(40 * '-')
+print("| YXY_something ")
+print(40 * '-')
+
+def new_line():
+    return 40*'_'
