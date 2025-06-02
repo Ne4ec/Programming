@@ -40,7 +40,7 @@ ____
 #### Calculator
 ![calculator](https://github.com/Ne4ec/Programming/blob/main/.pictures/c_poc/calculator.png)
 ____
-#### Patter printer
+#### Pattern printer
 ![pattern printer](https://github.com/Ne4ec/Programming/blob/main/.pictures/c_poc/pattern_printer.png)
 ____
 #### Conculution
