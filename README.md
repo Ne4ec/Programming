@@ -1,5 +1,7 @@
- Programming
+#Programming
+
 Here are my projects, which help me learn how to code with Python and C.  
+
 **Warning**: This project is designed for learning purposes only. It is not intended for professional use and is suitable for school or study projects.  
 _____
 ## Installation 
@@ -37,9 +39,12 @@ ____
 ### C
 #### Calculator
 ![calculator](https://github.com/Ne4ec/Programming/blob/main/.pictures/c_poc/calculator.png)
-
+____
+#### Patter printer
+![pattern printer](https://github.com/Ne4ec/Programming/blob/main/.pictures/c_poc/pattern_printer.png)
 ____
 #### Conculution
 Hopefully, everything is working. If not, please leave a comment in the Issues tab. Thank you for paying attention, and have a nice day :) <br>
 ~ Ne4ec
+
 
